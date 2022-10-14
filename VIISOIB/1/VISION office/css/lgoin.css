@@ -1,0 +1,169 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+#body{
+     min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #020312;
+    overflow: hidden;
+}
+
+.image-sign{
+    height: 700px;
+    width: 650px;
+    border-radius:20px ;
+
+    }
+
+.image-sign img{
+
+    
+    width: 100%;
+    height: 100%;
+    border-radius:10px ;
+}
+.con-sign{
+    
+    position: relative;
+    max-width: 600px;
+    height: 700px;
+    border-radius: 6px;
+    padding: 30px;
+    margin: 0 15px;
+    background-color: #21242b;
+  
+}
+ .container-sign header{
+    position: relative;
+    font-size: 20px;
+    font-weight: 600;
+    color:  white;
+} 
+.fields-sign{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+} 
+  .input-field-sign{
+    display: flex;
+    width: calc(100% / 2 - 10px);
+    flex-direction: column;
+    margin: 20px 0;
+}
+ .input-field-sign label{
+    font-size: 12px;
+    font-weight: 500;
+    color:  white;
+} 
+ .input-field-sign input, select{
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    border-radius: 20px;
+    border: 3px solid  white;
+    padding: 0 15px;
+    height: 42px;
+    margin: 8px 0;
+
+} 
+
+
+@media (max-width: 768px){
+    .image-sign{
+        display: none;
+    }
+}
+@media (max-width: 750px) {
+     form{
+        overflow-y: scroll;
+    }
+    form::-webkit-scrollbar{
+       display: none;
+    }
+     .input-field-sign{
+        width: calc(100% / 2 - 15px);
+    }
+    .image-sign{
+        display: none;
+    }
+}
+
+@media (max-width: 550px) {
+    .input-field-sign{
+        width: 70%;
+    }
+
+    .image-sign{
+        display: none;
+    }
+    .input-field-sign i{
+        margin-left: 130px;
+      position: absolute;
+    }
+        
+}
+
+@media (max-width: 548px){
+    .op-sign{
+  padding: none;
+   
+      }
+
+}
+
+.sign-sign{
+    font-size: 26px;
+    font-weight: 600;
+    color: #aaa;
+}
+/* .d-grid-sign{
+   margin-right: 180px ;
+   width: 250px ;
+   
+} */
+.btn-sign{
+    margin-top: 30px;
+    width: 125px;
+
+    background:#ffbd4a 
+    ;
+    border: 2px solid#ffbd4a ;
+    border-radius: 20px ;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
+
+.op-sign{
+        position: absolute;
+    color:#ffbd4a;
+    font-size: 17px;
+    padding: 6.5%;
+     margin-left:180px; 
+     position: absolute;
+    color:#ffbd4a;
+    font-size: 17px;
+    /* padding: 10px; */
+}
+
+.icons-sign{
+    display: flex;
+}
+
+
+.last-text p{
+    margin-top: 20px;
+    color: white
+}
